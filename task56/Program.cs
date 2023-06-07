@@ -54,7 +54,7 @@ FillArray(array);
 PrintArray(array);
 
 int rowWithMinSum = MinSumRow(array);
-Console.WriteLine("Строка с наименьшей суммой элементов: " + rowWithMinSum);
+System.Console.WriteLine($"Строка с наименьшей суммой элементов: {rowWithMinSum+1}");
 
 
 
